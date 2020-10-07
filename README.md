@@ -20,15 +20,15 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Title of my project
+# Crossing America: Phylogenetics of Two Plethodontid Salamander Genera Across Their Highly Fragmented Ranges
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+Plethodontidae is a diverse group of salamanders with most of their diversity located in North America, specifically east of the Great Plains, along the West Coast, and in the mountainous ranges of central and southern Mexico. Two genera, Aneides and Plethodon, have representatives both on the West Coast and east of the Great Plains, regions which are seperated by wide expanses of highly unsuitable habitat for Plethodontids, which lack lungs and require constant moisture to breathe. Even more surprisingly, a single species in each genus is also present in isolated mountain ranges in New Mexico (Aneides hardii and Plethodon neomexicanus); similar, seemingly-suitable habitat is present in other nearby mountain ranges in New Mexico, and much more extensively in the Colorado Rockies to the north and the Sierra Madre Occidental to the south, yet neither genus has been documented in these areas in spite of extensive collecting by herpetologists. Plethodon and Aneides are each believed to be monophyletic, and they are not believed to be sister taxa, yet no other genus in Plethodontidae is present in more than one of the three hotspots described above (eastern US, West Coast, southern/central Mexico), and no Plethodontids at all are found west of central Texas and the Great Plains, and east of the Great Basin and the Idaho Rockies.
+The goal of my project is to answer the question, What is the evolutionary history of these two oddly-distributed genera? Specifically, I would like to verify that Aneides and Plethodon are truly each monophyletic as they are currently understood to be, and if they are, I would like to understand how each genus expanded across North America.
 
-The methods I will use to do this are...
-
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+To do this, I would like to construct a phylogeny containing representatives of each of Aneides and Plethodon from all 3 parts of their range. Ideally, I would like to include outgroups from other Plethodontid genera in all 3 of the hotspots described above, to potentially shed light on the origin region of each of Plethodon and Aneides.
+The methods I will use to construct this phylogeny are that I will use publicly available genetic data for members of Aneides and Plethodon, along with outgroups as described above. I have briefly looked at NCBI and GenBank, and it seems like there is ample data present for members of Aneides and Plethodon from all 3 isolated regions where they occur. I would then likely use methods similar to the ones showcased in problem set 5 to construct a phylogeny; if there is more than one DNA sequence available for members of the two genera from all 3 regions and for outgroups, then I would like to look into more complicated methods we have not yet covered in class i.e. combining phylogenies obtained from multiple different genes/DNA sequences. Once I have a phylogeny, I would be able to answer the question of whether Aneides and Plethodon are each monophyletic as we currently understand them to be. My ability to answer the remaining questions would depend on what my phylogeny looked like. For example, if I found Plethodon neomexicanus to be deeply nested within a clade of western Plethodon species, I could conclude that P. neomexicanus is a relic of a dispersal event from the West Coast, seperate from the event allowing Plethodon to colonize one coast from the other. If I instead found Plethodon neomexicanus to lie within a clade of Plethodontids native to Mexico, I would conclude that Plethodon neomexicanus does not belong in Plethodon at all, and that the ancestors of Plethodon neomexicanus moved north along the Sierra Madre Occidental to New Mexico.
 
 ## Methods
 
