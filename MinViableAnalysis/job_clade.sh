@@ -8,4 +8,4 @@
 
 module load IQ-TREE/1.6.12
 
-iqtree -s MVA.alignment.fasta -nt AUTO
+iqtree -s MVAoutgroups.alignment.fasta -nt AUTO
