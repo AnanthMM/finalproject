@@ -33,6 +33,7 @@ The methods I will use to construct this phylogeny are that I will use publicly 
 ## Methods
 
 ```r
+library(ape)
 # View the phylogeny
 phy = read.tree("MinViableAnalysis/MVA.aligned.fasta.treefile")
 plot(phy)
