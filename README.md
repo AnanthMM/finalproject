@@ -32,17 +32,17 @@ The methods I will use to construct this phylogeny are that I will use publicly 
 
 ## Methods
 
-For the minimum viable analysis, I chose one gene with about 800 base pairs from Plethodon neomexicanus on NCBI, and created a phylogeny using IQ tree. The phylogeny includes the two species of interest, Plethodon neomexicanus and Aneides hardii, as well as solid representation of the western and eastern assemblages of each of Plethodon and Aneides. Additionally, the phylogeny includes two of the northernmost-ranging Plethodontids in Mexico (Aquiloeurycea galeanae and Isthamura bellii), a few outgroups within Plethodontidae, and one outgroup (Amphiuma means) outside of Plethodontidae. This phylogeny is stored in the file MinViableAnalysis/MVA_Phylogeny.pdf .
+For the minimum viable analysis, I chose one gene with about 800 base pairs from Plethodon neomexicanus on NCBI, used blast to find the sequences for this gene in other species I selected based on my question (described further below), and created a phylogeny using IQ tree. The phylogeny includes the two species of interest, Plethodon neomexicanus and Aneides hardii, as well as solid representation of the western and eastern assemblages of each of Plethodon and Aneides, in order to give precise information about where the two species of interest fall within their genera and relative to the radiations across the United States. Additionally, the phylogeny includes two of the northernmost-ranging Plethodontids in Mexico (Aquiloeurycea galeanae and Isthamura bellii), to test whether either species of interest may have derived from a radiation north from Mexico, a few outgroups within Plethodontidae, and one outgroup (Amphiuma means) outside of Plethodontidae.
+
+## Results
+
+The minimum viable analysis phylogeny described in the methods is stored in the file MinViableAnalysis/MVA_Phylogeny.pdf .
+
+## Discussion
 
 This phylogeny places Plethodon neomexicanus as nested within the clade of western Plethodon. This would suggest that Plethodon neomexicanus arose in its current distribution as a result of a radiation from the northwestern United States that occurred after (and seperately from) the dispersal event of Plethodon from one coast to the other. The phylogeny places Aneides hardii as sister to all western Aneides species, with Aneides aeneus, the one eastern Aneides sampled, placed as sister to all other Aneides. This suggests that Aneides hardii is the product of a radiation from the west coast that occurred after the split between Aneides aeneus and the western members of Aneides. In short, this preliminary analysis suggests that neither species is the relic of the dispersal event which allowed each of the two genera to exist on both coasts. The topology of small subclades of the tree close to the tips pretty closely matches that of published phylogenies of Plethodontidae (e.g. http://ibdev.mcb.berkeley.edu/labs/wake/373_multigenic_Plethodontidae.pdf and https://www.researchgate.net/figure/Combined-data-Plethodon-phylogeny-Phylogeny-of-the-salamander-genus-Plethodon-based-on-a_fig1_51717349), meaning that it's placement of Plethodon neomexicanus and Aneides hardii within the western clade of Plethodon and within Aneides respectively may be trusted to some degree.
 
 This phylogeny also suggests, more controversially, that the genus Plethodon is paraphyletic, with all eastern Plethodon falling in a clade that is sister to a large portion of Plethodontidae, including genera limited to the east coast (Desmognathus, Phaeognathus, Eurycea, Pseudotriton), the west coast (Hydromantes), and Mexico and Central America (Isthamura, Aquiloeurycea). According to this result, there was no radiation of the genus Plethodon across the United States; instead, there was a divergence between eastern Plethodon and most other Plethodontids, which some of the genera in the remaining clade dispersing across the United States or into Mexico. This not only seem less believable becuase it would require several independent massive dispresal events across varied habitat and large distances, but it also goes against published family-level phylogenies of Plethodontidae. I suspect that ~800 base pairs is not sufficient to work out the order of the ancient and rapid series of divergences which resulted in the present-day (genus-level, if we are to belive current taxonomy) diversity of Plethodontidae. Going forward, I will search for more genes for which there is available data for Plethodon neomexicanus and Aneides hardii, preferably with many more base pairs, in order to construct a more certain phylogeny. I will also think about how I could make more concious choices about the model I use to gain more reliable results.
-
-## Results
-
-The tree in Figure 1...
-
-## Discussion
 
 These results indicate...
 
