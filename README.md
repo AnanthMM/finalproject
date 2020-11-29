@@ -123,13 +123,20 @@ The minimum viable analysis phylogeny described in the methods is stored
 in the file MinViableAnalysis/MVA\_Phylogeny.pdf .
 
 ``` r
-# Insert code here to view the phylogeny
 phy = read.tree("NADH_ML_bootstrap/NADH.alignment.fasta.treefile")
 plot(phy)
 nodelabels(phy$node.label)
 ```
 
 ![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
+
+``` r
+phy = read.tree("Rag-1_ML_bootstrap/Rag-1.alignment.fasta.treefile")
+plot(phy)
+nodelabels(phy$node.label)
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 Discussion
 ----------
