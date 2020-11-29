@@ -1,10 +1,10 @@
 ---
 title: "Final Project"
 output:
-  html_document:
-    df_print: paged
   md_document:
     variant: markdown_github
+  html_document:
+    df_print: paged
 ---
 
 # Phylogenetic Biology - Final Project
