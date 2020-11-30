@@ -138,6 +138,14 @@ nodelabels(phy$node.label)
 
 ![](README_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
+``` r
+phy = read.tree("Concatenated_bootstrap/NADH+Rag-1.alignment.fasta.treefile")
+plot(phy)
+nodelabels(phy$node.label)
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-3-1.png)
+
 Discussion
 ----------
 
