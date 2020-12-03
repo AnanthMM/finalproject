@@ -108,10 +108,10 @@ neomexicanus* nested within this group, while all eastern members of
 Plethodontidae.
 
 Support values for edges close to the tips were generally high, with
-relationships within smaller clades often reflecting those presented by
-previously published phylogenies (e.g. eastern and western *Plethodon* in
+relationships within smaller clades reflecting those presented by
+previously published phylogenies (e.g. eastern *Plethodon* in
 Fisher-Reid 2011). However, support values for edges between larger
-clades (e.g. Plethodontidae excluding eastern *Plethodon* and
+clades (e.g. Plethodontidae excluding western *Plethodon* and
 *Ensatina*) were very poor. In particular, the polyphyly of *Plethodon*,
 the monophyly of western *Plethodon*, and the placement of *Plethodon
 neomexicanus* within the clade of western *Plethodon* are poorly
@@ -124,9 +124,9 @@ al. 2011).
 Below is the gene tree generated for the Rag-1 gene.
 ![](README_files/figure-markdown_github/unnamed-chunk-2-1.png) This tree
 suggests that western members of *Aneides* form a monophyletic group,
-with *Aneides hardii* sister to this group, and the eastern species
-*Aneides aeneus* sister to the rest of the genus. It suggests that all
-western members of *Plethodon* form a monophyletic group, with *Plethodon
+with *Aneides hardii* sister to this group, and the eastern *Aneides
+aeneus* sister to the rest of the genus. It suggests that all western
+members of *Plethodon* form a monophyletic group, with *Plethodon
 neomexicanus* nested within this group, and eastern members of
 *Plethodon* form a monophyletic group sister to the aformentioned clade
 of western and New Mexican *Plethodon*. This tree also suggests that
@@ -159,12 +159,12 @@ Discussion
 
 The Rag-1 tree and combined tree demonstrate with high support the
 monophyly of each of *Plethodon* and *Aneides*. This suggest that the
-two present-day Plethodontid species in New Mexico are indeed relicts of
+two present-day Plethodontids in New Mexico are indeed the result of
 multiple seperate Plethodontid radiations into the region. The monophyly
 of these two genera also indicates a shared ancestry between the New
-Mexican Plethodontids and either eastern or western clades of their
-respective genera, not Mexican clades of Plethodontids such as
-*Isthamura*, *Aquiloeurycea*, and *Pseudoeurycea*.
+Mexican Plethodontids and either eastern or western clades, not Mexican
+clades of Plethodontids such as *Isthamura*, *Aquiloeurycea*, and
+*Pseudoeurycea*.
 
 Strongly-supported relationships in the Rag-1 and concatenated trees
 (and moderate-to-weakly supported relationships in the ND-4 tree)
@@ -182,9 +182,9 @@ Strongly-supported relationships in all three trees indicate that the
 group of eastern *Plethodon* is monophyletic, and does not include
 *Plethodon neomexicanus*, ruling out the possibiliy of *Plethodon
 neomexicanus* being the result of a recent radiation from the east.
-Weakly-supported relationships that are consistent in all three trees
+Weakly-supported relations ships that are consistent in all three trees
 suggest that *Plethodon neomexicanus* is nested within the clade of
-western *Plethodon*; if we accept these relationships, then *Plethodon
+western *Plethodon*; if we accept this relationship, then *Plethodon
 neomexicanus* is likely the result of a radiation of *Plethodon* from
 the west that occurred after some of the diversification of extant
 *Plethodon* in the Pacific Northwest. However, stronger support would be
