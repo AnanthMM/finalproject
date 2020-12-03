@@ -8,4 +8,4 @@
 
 module load IQ-TREE/1.6.12
 
-iqtree -s NADH.alignment.fasta -bb 1000 -nt AUTO
+iqtree -s NADH.aligned.fasta -bb 1000 -nt AUTO
