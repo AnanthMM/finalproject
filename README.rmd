@@ -77,7 +77,7 @@ Unlike the ND-4 tree, support values in the Rag-1 tree are high for most edges c
 Finally, below is the gene tree generated for the concatenation of the two genes.
 ```{r fig.width=12, fig.height=20, echo=FALSE}
 
-phy = read.tree("Concatenated_bootstrap/NADH+Rag-1.alignment.fasta.treefile")
+phy = read.tree("Concatenated_bootstrap/NADH+Rag-1.aligned.fasta.treefile")
 plot(phy)
 nodelabels(phy$node.label)
 
@@ -92,7 +92,7 @@ The Rag-1 tree and combined tree demonstrate with high support the monophyly of 
 
 Strongly-supported relationships in the Rag-1 and concatenated trees (and moderate-to-weakly supported relationships in the ND-4 tree) suggest that *Aneides hardii* is sister to the group of western *Aneides*, with eastern *Aneides* sister to this broader group. This could either mean that *Aneides hardii* is the result of a radiation of *Aneides* from the west coast before the diversification of that group, or it could mean *Aneides hardii* diverged from the ancestor of present-day western *Aneides* when the genus had a more widespread distribution across the American west, perhaps soon after the ancestor of the eastern *Aneides aeneus* diverged from the ancestor of the rest of the genus's extant members.
 
-Strongly-supported relationships in all three trees indicate that the group of eastern *Plethodon* is monophyletic, and does not include *Plethodon neomexicanus*, ruling out the possibiliy of *Plethodon neomexicanus* being the result of a recent radiation from the east. Weakly-supported relations ships that are consistent in all three trees suggest that *Plethodon neomexicanus* is nested within the clade of western *Plethodon*; if we accept this relationship, then *Plethodon neomexicanus* is likely the result of a radiation of *Plethodon* from the west that occurred after some of the diversification of extant *Plethodon* in the Pacific Northwest. However, stronger support would be required to make this conclusion.
+Strongly-supported relationships in all three trees indicate that the group of eastern *Plethodon* is monophyletic, and does not include *Plethodon neomexicanus*, ruling out the possibiliy of *Plethodon neomexicanus* being the result of a recent radiation from the east, and there is strong support in the tree for the concatenation for a monophyletic group consisting of western *Plethodon* together with *Plethodon neomexicanus*. Weakly-supported relations ships that are consistent in all three trees suggest that *Plethodon neomexicanus* is nested within the clade of western *Plethodon*; if we accept this relationship, then *Plethodon neomexicanus* is likely the result of a radiation of *Plethodon* from the west that occurred after some of the diversification of extant *Plethodon* in the Pacific Northwest. However, stronger support would be required to make this conclusion.
 
 I am not sure whether to trust the concatenated gene tree, because I worry that the two genes (especially since one is nuclear and one is mitochondrial) may have significantly different rates or patterns of evolution which are not properly accounted for by the simplicity of the model chosen by IQ-TREE (TIM2 transition model with empirical base frequencies and free rate model of evolutionary rate heterogeneity with 4 categories). Going forward, I intend to investigate ways of partitioning the sequences to account for this.
 

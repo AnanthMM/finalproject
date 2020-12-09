@@ -181,14 +181,16 @@ of the genus’s extant members.
 Strongly-supported relationships in all three trees indicate that the
 group of eastern *Plethodon* is monophyletic, and does not include
 *Plethodon neomexicanus*, ruling out the possibiliy of *Plethodon
-neomexicanus* being the result of a recent radiation from the east.
-Weakly-supported relations ships that are consistent in all three trees
-suggest that *Plethodon neomexicanus* is nested within the clade of
-western *Plethodon*; if we accept this relationship, then *Plethodon
-neomexicanus* is likely the result of a radiation of *Plethodon* from
-the west that occurred after some of the diversification of extant
-*Plethodon* in the Pacific Northwest. However, stronger support would be
-required to make this conclusion.
+neomexicanus* being the result of a recent radiation from the east, and
+there is strong support in the tree for the concatenation for a
+monophyletic group consisting of western *Plethodon* together with
+*Plethodon neomexicanus*. Weakly-supported relations ships that are
+consistent in all three trees suggest that *Plethodon neomexicanus* is
+nested within the clade of western *Plethodon*; if we accept this
+relationship, then *Plethodon neomexicanus* is likely the result of a
+radiation of *Plethodon* from the west that occurred after some of the
+diversification of extant *Plethodon* in the Pacific Northwest. However,
+stronger support would be required to make this conclusion.
 
 I am not sure whether to trust the concatenated gene tree, because I
 worry that the two genes (especially since one is nuclear and one is
