@@ -92,7 +92,10 @@ Plethodontidae (*Amphiuma tridactylum*). I created a maximum-likelihood
 gene tree for each of these genes using IQ-TREE, with a bootstrap sample
 of 1000 to generate support values. I also generated a third tree by
 inputting the direct concatenation of these two genes into IQ-TREE with
-the specifications described above.
+the specifications described above, and a fourth tree using a partition
+model with a partition specified between the two genes concatenated, and
+the same substitution model as chosen in the concatenation analysis
+without partition.
 
 Results
 -------
@@ -145,8 +148,8 @@ western and New Mexican *Plethodon* is somewhat well-supported, but the
 placement of *Plethodon neomexicanus* as nested within the western
 *Plethodon* is not well-supported.
 
-Finally, below is the gene tree generated for the concatenation of the
-two genes.
+Below is the gene tree generated for the concatenation of the two genes
+with no partition specified.
 ![](README_files/figure-markdown_github/unnamed-chunk-3-1.png) In this
 tree, the monophyly of *Aneides* and *Plethodon* are each
 well-supported, and predicted relationships within these genera are very
@@ -154,10 +157,18 @@ similar to those in the Rag-1 tree, with similar support values. As in
 the Rag-1 tree, relationships between larger clades were mostly
 consistent with previously published phylogenies (Vieites et al. 2011).
 
+Finally, below is the gene tree generated for the concatenation of the
+two genes with a partition specified between the two genes.
+![](README_files/figure-markdown_github/unnamed-chunk-4-1.png) This tree
+has the exact same topology as the tree for the concatenation of the two
+genes with no partition, but with lower support values in a couple key
+areas, in particular regarding the relationships between western
+*Plethodon* and *Plethodon neomexicanus*.
+
 Discussion
 ----------
 
-The Rag-1 tree and combined tree demonstrate with high support the
+The Rag-1 tree and combined trees demonstrate with high support the
 monophyly of each of *Plethodon* and *Aneides*. This suggest that the
 two present-day Plethodontids in New Mexico are indeed the result of
 multiple seperate Plethodontid radiations into the region. The monophyly
@@ -178,28 +189,19 @@ distribution across the American west, perhaps soon after the ancestor
 of the eastern *Aneides aeneus* diverged from the ancestor of the rest
 of the genus’s extant members.
 
-Strongly-supported relationships in all three trees indicate that the
+Strongly-supported relationships in all four trees indicate that the
 group of eastern *Plethodon* is monophyletic, and does not include
 *Plethodon neomexicanus*, ruling out the possibiliy of *Plethodon
 neomexicanus* being the result of a recent radiation from the east, and
-there is strong support in the tree for the concatenation for a
-monophyletic group consisting of western *Plethodon* together with
-*Plethodon neomexicanus*. Weakly-supported relations ships that are
-consistent in all three trees suggest that *Plethodon neomexicanus* is
-nested within the clade of western *Plethodon*; if we accept this
-relationship, then *Plethodon neomexicanus* is likely the result of a
-radiation of *Plethodon* from the west that occurred after some of the
+there is strong support in the concatenation trees for a monophyletic
+group consisting of western *Plethodon* together with *Plethodon
+neomexicanus*. Weakly-supported relationships that are consistent in all
+four trees suggest that *Plethodon neomexicanus* is nested within the
+clade of western *Plethodon*; if we accept this relationship, then
+*Plethodon neomexicanus* is likely the result of a radiation of
+*Plethodon* from the west that occurred after some of the
 diversification of extant *Plethodon* in the Pacific Northwest. However,
 stronger support would be required to make this conclusion.
-
-I am not sure whether to trust the concatenated gene tree, because I
-worry that the two genes (especially since one is nuclear and one is
-mitochondrial) may have significantly different rates or patterns of
-evolution which are not properly accounted for by the simplicity of the
-model chosen by IQ-TREE (TIM2 transition model with empirical base
-frequencies and free rate model of evolutionary rate heterogeneity with
-4 categories). Going forward, I intend to investigate ways of
-partitioning the sequences to account for this.
 
 The ideal, thorough way to address this research question would be to
 construct a Baysian time-calibrated tree with fossil data. Knowing the
@@ -222,11 +224,10 @@ AmphibiaWeb. 2020.
 <a href="https://amphibiaweb.org" class="uri">https://amphibiaweb.org</a>
 University of California, Berkeley, CA, USA. Accessed 30 Nov 2020.
 
-B.Q. Minh, H.A. Schmidt, O. Chernomor, D. Schrempf, M.D. Woodhams, A.
-von Haeseler, R. Lanfear (2020) IQ-TREE 2: New models and efficient
-methods for phylogenetic inference in the genomic era. Mol. Biol. Evol.,
-37:1530-1534.
-<a href="https://doi.org/10.1093/molbev/msaa015" class="uri">https://doi.org/10.1093/molbev/msaa015</a>
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh, and
+Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+<a href="https://doi.org/10.1093/molbev/msx281" class="uri">https://doi.org/10.1093/molbev/msx281</a>
 
 Fisher-Reid, M. Caitlin. (2011). What are the consequences of combining
 nuclear and mitochondrial data for phylogenetic analysis? Lessons from
@@ -234,10 +235,20 @@ Plethodon salamanders and 13 other vertebrate clades. BMC evolutionary
 biology. 11. 300. 10.1186/1471-2148-11-300.
 <a href="https://www.researchgate.net/figure/Combined-data-Plethodon-phylogeny-Phylogeny-of-the-salamander-genus-Plethodon-based-on-a_fig1_51717349" class="uri">https://www.researchgate.net/figure/Combined-data-Plethodon-phylogeny-Phylogeny-of-the-salamander-genus-Plethodon-based-on-a_fig1_51717349</a>
 
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang
+Minh (2015) IQ-TREE: A fast and effective stochastic algorithm for
+estimating maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+<a href="https://doi.org/10.1093/molbev/msu300" class="uri">https://doi.org/10.1093/molbev/msu300</a>
+
 NCBI Resource Coordinators. Database resources of the National Center
 for Biotechnology Information. Nucleic Acids Res. 2018 Jan
 4;46(D1):D8-D13. doi: 10.1093/nar/gkx1095. PMID: 29140470; PMCID:
 PMC5753372.
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016) Terrace
+aware data structure for phylogenomic inference from supermatrices. Syst
+Biol, 65:997-1008.
+<a href="https://doi.org/10.1093/sysbio/syw037" class="uri">https://doi.org/10.1093/sysbio/syw037</a>
 
 Petranka, James W. (2010). Salamanders of the United States and Canada.
 Smithsonian Books. ISBN: 9781588343086
