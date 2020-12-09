@@ -1,0 +1,258 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c03n02.grace.hpc.yale.internal (AVX, 125 GB RAM)
+Command: iqtree -s NADH+Rag-1.aligned.partition.fasta -spp NADH+Rag-1.partitions -m TIM2+F+R4 -bb 1000 -nt AUTO
+Seed:    949271 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Dec  9 11:44:12 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading partition model file NADH+Rag-1.partitions ...
+Reading alignment file NADH+Rag-1.aligned.partition.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 40 sequences with 2284 columns, 981 distinct patterns
+677 parsimony-informative, 262 singleton sites, 1345 constant sites
+WARNING: Some sequence names are changed as follows:
+Amphiuma_tridactylum_FJ951364.1+FJ951369.1 -> Amphiuma_tridactylum_FJ951364.1_FJ951369.1
+Pseudotriton_ruber_AY728220.1+AY650123.1 -> Pseudotriton_ruber_AY728220.1_AY650123.1
+Eurycea_cirrigera_KY885249.1+FJ750238.1 -> Eurycea_cirrigera_KY885249.1_FJ750238.1
+Aquiloeurycea_galeanae_AF451213.1+KP900137.1 -> Aquiloeurycea_galeanae_AF451213.1_KP900137.1
+Plethodon_hoffmani_AF329333.1+DQ995029.1 -> Plethodon_hoffmani_AF329333.1_DQ995029.1
+Plethodon_wehrlei_AF329342.1+DQ995075.1 -> Plethodon_wehrlei_AF329342.1_DQ995075.1
+Plethodon_welleri_AF329343.1+AY691717.1 -> Plethodon_welleri_AF329343.1_AY691717.1
+Plethodon_dorsalis_DQ995101.1+DQ995023.1 -> Plethodon_dorsalis_DQ995101.1_DQ995023.1
+Phaeognathus_hubrichti_AY728233.1+AY691700.1 -> Phaeognathus_hubrichti_AY728233.1_AY691700.1
+Desmognathus_fuscus_AY728227.1+KR732372.1 -> Desmognathus_fuscus_AY728227.1_KR732372.1
+Ensatina_eschscholtzii_AY728216.1+AY650119.1 -> Ensatina_eschscholtzii_AY728216.1_AY650119.1
+Hydromantes_platycephalus_HM989517.1+HM797656.1 -> Hydromantes_platycephalus_HM989517.1_HM797656.1
+Plethodon_ouachitae_AF329335.1+AY691704.1 -> Plethodon_ouachitae_AF329335.1_AY691704.1
+Plethodon_glutinosus_DQ995105.1+DQ995027.1 -> Plethodon_glutinosus_DQ995105.1_DQ995027.1
+Plethodon_cylindraceus_DQ995100.1+DQ995022.1 -> Plethodon_cylindraceus_DQ995100.1_DQ995022.1
+Plethodon_kentucki_DQ995116.1+DQ995033.1 -> Plethodon_kentucki_DQ995116.1_DQ995033.1
+Plethodon_neomexicanus_AF329353.1+DQ995044.1 -> Plethodon_neomexicanus_AF329353.1_DQ995044.1
+Plethodon_petraeus_AY728222.1+DQ995049.1 -> Plethodon_petraeus_AY728222.1_DQ995049.1
+Plethodon_yonahlossee_AF329341.1+AY691718.1 -> Plethodon_yonahlossee_AF329341.1_AY691718.1
+Plethodon_hubrichti_DQ995112.1+DQ995030.1 -> Plethodon_hubrichti_DQ995112.1_DQ995030.1
+Plethodon_jordani_AF329334.1+DQ995032.1 -> Plethodon_jordani_AF329334.1_DQ995032.1
+Plethodon_websteri_DQ995167.1+DQ995073.1 -> Plethodon_websteri_DQ995167.1_DQ995073.1
+Aneides_vagrans_KF781825.1+MF946547.1 -> Aneides_vagrans_KF781825.1_MF946547.1
+Plethodon_idahoensis_DQ995113.1+DQ995031.1 -> Plethodon_idahoensis_DQ995113.1_DQ995031.1
+Plethodon_vehiculum_AF329355.1+AY691716.1 -> Plethodon_vehiculum_AF329355.1_AY691716.1
+Plethodon_dunni_AF329344.1+KF911900.1 -> Plethodon_dunni_AF329344.1_KF911900.1
+Plethodon_elongatus_AY728223.1+AY650120.1 -> Plethodon_elongatus_AY728223.1_AY650120.1
+Aneides_lugubris_KF781809.1+AY650118.1 -> Aneides_lugubris_KF781809.1_AY650118.1
+Plethodon_larselli_AF329350.1+DQ995036.1 -> Plethodon_larselli_AF329350.1_DQ995036.1
+Aneides_ferreus_AF329324.1+EU275805.1 -> Aneides_ferreus_AF329324.1_EU275805.1
+Plethodon_shenandoah_MK493192.1+DQ995062.1 -> Plethodon_shenandoah_MK493192.1_DQ995062.1
+Plethodon_richmondi_AF329339.1+DQ995054.1 -> Plethodon_richmondi_AF329339.1_DQ995054.1
+Aneides_aeneus_AF489624.1+AY691701.1 -> Aneides_aeneus_AF489624.1_AY691701.1
+Aneides_flavipunctatus_AF329326.1+MF946533.1 -> Aneides_flavipunctatus_AF329326.1_MF946533.1
+Aneides_hardii_AY728226.1+EU275780.1 -> Aneides_hardii_AY728226.1_EU275780.1
+Plethodon_cinereus_MN483063.1+DQ995021.1 -> Plethodon_cinereus_MN483063.1_DQ995021.1
+Plethodon_serratus_AF329337.1+DQ995057.1 -> Plethodon_serratus_AF329337.1_DQ995057.1
+Aneides_aeneus_AF489627.1+KF911883.1 -> Aneides_aeneus_AF489627.1_KF911883.1
+Aneides_hardii_AF329327.1+KC165585.1 -> Aneides_hardii_AF329327.1_KC165585.1
+Plethodon_vandykei_AF329354.1+AY691715.1 -> Plethodon_vandykei_AF329354.1_AY691715.1
+
+                                                 Gap/Ambiguity  Composition  p-value
+   1  Amphiuma_tridactylum_FJ951364.1_FJ951369.1         0.39%    passed     55.01%
+   2  Pseudotriton_ruber_AY728220.1_AY650123.1           0.57%    passed     99.95%
+   3  Eurycea_cirrigera_KY885249.1_FJ750238.1           12.83%    passed     98.91%
+   4  Aquiloeurycea_galeanae_AF451213.1_KP900137.1       8.06%    passed     96.66%
+   5  Plethodon_hoffmani_AF329333.1_DQ995029.1           0.70%    passed     95.36%
+   6  Plethodon_wehrlei_AF329342.1_DQ995075.1            1.40%    passed     67.15%
+   7  Plethodon_welleri_AF329343.1_AY691717.1            5.12%    passed     78.03%
+   8  Plethodon_dorsalis_DQ995101.1_DQ995023.1           7.40%    passed     72.33%
+   9  Phaeognathus_hubrichti_AY728233.1_AY691700.1       0.18%    passed     64.85%
+  10  Desmognathus_fuscus_AY728227.1_KR732372.1          0.44%    failed      4.63%
+  11  Ensatina_eschscholtzii_AY728216.1_AY650119.1       0.39%    passed     16.36%
+  12  Hydromantes_platycephalus_HM989517.1_HM797656.1    3.59%    failed      0.51%
+  13  Plethodon_ouachitae_AF329335.1_AY691704.1          0.88%    passed     35.66%
+  14  Plethodon_glutinosus_DQ995105.1_DQ995027.1        12.39%    passed     61.36%
+  15  Plethodon_cylindraceus_DQ995100.1_DQ995022.1       7.14%    passed     40.54%
+  16  Plethodon_kentucki_DQ995116.1_DQ995033.1           7.01%    passed     59.84%
+  17  Plethodon_neomexicanus_AF329353.1_DQ995044.1       0.09%    passed     88.09%
+  18  Plethodon_petraeus_AY728222.1_DQ995049.1           0.35%    passed     66.21%
+  19  Plethodon_yonahlossee_AF329341.1_AY691718.1        7.22%    passed     78.91%
+  20  Plethodon_hubrichti_DQ995112.1_DQ995030.1          6.96%    passed     47.64%
+  21  Plethodon_jordani_AF329334.1_DQ995032.1            7.05%    passed     58.61%
+  22  Plethodon_websteri_DQ995167.1_DQ995073.1           7.05%    passed     51.10%
+  23  Aneides_vagrans_KF781825.1_MF946547.1             32.62%    passed     28.05%
+  24  Plethodon_idahoensis_DQ995113.1_DQ995031.1         7.57%    passed     77.80%
+  25  Plethodon_vehiculum_AF329355.1_AY691716.1          0.79%    passed     94.20%
+  26  Plethodon_dunni_AF329344.1_KF911900.1              3.94%    passed     92.78%
+  27  Plethodon_elongatus_AY728223.1_AY650120.1          0.44%    passed     99.96%
+  28  Aneides_lugubris_KF781809.1_AY650118.1             0.70%    passed     28.99%
+  29  Plethodon_larselli_AF329350.1_DQ995036.1           1.09%    passed     98.72%
+  30  Aneides_ferreus_AF329324.1_EU275805.1              2.80%    passed     82.33%
+  31  Plethodon_shenandoah_MK493192.1_DQ995062.1         0.57%    passed     92.59%
+  32  Plethodon_richmondi_AF329339.1_DQ995054.1          0.53%    passed     61.36%
+  33  Aneides_aeneus_AF489624.1_AY691701.1               0.74%    passed     10.78%
+  34  Aneides_flavipunctatus_AF329326.1_MF946533.1      29.38%    passed      8.09%
+  35  Aneides_hardii_AY728226.1_EU275780.1               1.88%    passed     88.41%
+  36  Plethodon_cinereus_MN483063.1_DQ995021.1           0.48%    passed     91.31%
+  37  Plethodon_serratus_AF329337.1_DQ995057.1           0.66%    passed     81.96%
+  38  Aneides_aeneus_AF489627.1_KF911883.1               4.68%    passed     10.85%
+  39  Aneides_hardii_AF329327.1_KC165585.1               4.60%    passed     85.54%
+  40  Plethodon_vandykei_AF329354.1_AY691715.1           2.71%    passed     55.42%
+****  TOTAL                                              4.83%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	40	817	422	312	GTR+F+R4	part1
+2	DNA	40	1467	255	1033	GTR+F+R4	part2
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 949271)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+201 trees examined
+Threads: 1 / Time: 20.043 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -26733
+Threads: 2 / Time: 11.833 sec / Speedup: 1.694 / Efficiency: 85% / LogL: -26733
+Threads: 3 / Time: 9.608 sec / Speedup: 2.086 / Efficiency: 70% / LogL: -26733
+Threads: 4 / Time: 9.623 sec / Speedup: 2.083 / Efficiency: 52% / LogL: -26733
+Threads: 5 / Time: 7.938 sec / Speedup: 2.525 / Efficiency: 50% / LogL: -26733
+Threads: 6 / Time: 7.922 sec / Speedup: 2.530 / Efficiency: 42% / LogL: -26733
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -21092.928
+Current log-likelihood at step 1: -18808.397
+Current log-likelihood at step 2: -18705.620
+Current log-likelihood at step 3: -18697.291
+Current log-likelihood at step 4: -18694.678
+Current log-likelihood at step 5: -18693.068
+Current log-likelihood at step 6: -18691.438
+Current log-likelihood at step 7: -18689.498
+Current log-likelihood at step 8: -18687.112
+Current log-likelihood at step 9: -18684.389
+Current log-likelihood at step 10: -18681.659
+Current log-likelihood at step 11: -18679.254
+Current log-likelihood at step 12: -18677.292
+Current log-likelihood at step 13: -18676.102
+Current log-likelihood at step 14: -18675.384
+Current log-likelihood at step 15: -18674.901
+Current log-likelihood at step 16: -18674.575
+Current log-likelihood at step 17: -18674.425
+Current log-likelihood at step 18: -18674.327
+Partition-specific rates:  2.372 0.236
+Parameters optimization took 17 rounds (1.341 sec)
+
+Computing ML distances based on estimated model parameters... 0.052 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -18664.729
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.819 second
+Computing log-likelihood of 98 initial trees ... 1.274 seconds
+Current best score: -18664.729
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18654.838
+Current log-likelihood at step 1: -18653.984
+Current log-likelihood at step 2: -18653.568
+Current log-likelihood at step 3: -18653.263
+Current log-likelihood at step 4: -18653.033
+Current log-likelihood at step 5: -18652.860
+Current log-likelihood at step 6: -18652.720
+Current log-likelihood at step 7: -18652.611
+Current log-likelihood at step 8: -18652.524
+Parameters optimization took 7 rounds (0.489 sec)
+
+BETTER TREE FOUND at iteration 1: -18652.524
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18650.477
+Current log-likelihood at step 1: -18650.395
+Parameters optimization took 0 rounds (0.062 sec)
+
+BETTER TREE FOUND at iteration 2: -18650.395
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18649.069
+Current log-likelihood at step 1: -18648.993
+Parameters optimization took 0 rounds (0.061 sec)
+
+BETTER TREE FOUND at iteration 3: -18648.993
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -18648.611
+Current log-likelihood at step 1: -18648.563
+Parameters optimization took 0 rounds (0.062 sec)
+
+BETTER TREE FOUND at iteration 6: -18648.563
+Iteration 10 / LogL: -18649.991 / Time: 0h:1m:12s
+Iteration 20 / LogL: -18657.257 / Time: 0h:1m:13s
+Finish initializing candidate tree set (6)
+Current best tree score: -18648.563 / CPU time: 5.033
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -18652.568 / Time: 0h:1m:14s (0h:3m:15s left)
+Iteration 40 / LogL: -18648.563 / Time: 0h:1m:16s (0h:2m:8s left)
+Iteration 50 / LogL: -18649.994 / Time: 0h:1m:17s (0h:1m:28s left)
+Log-likelihood cutoff on original alignment: -18689.077
+Iteration 60 / LogL: -18648.760 / Time: 0h:1m:18s (0h:1m:1s left)
+Iteration 70 / LogL: -18650.409 / Time: 0h:1m:20s (0h:0m:41s left)
+Iteration 80 / LogL: -18649.989 / Time: 0h:1m:21s (0h:0m:26s left)
+Iteration 90 / LogL: -18648.566 / Time: 0h:1m:22s (0h:0m:14s left)
+Iteration 100 / LogL: -18648.626 / Time: 0h:1m:23s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -18689.077
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 107 ITERATIONS / Time: 0h:1m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -18648.563
+Current log-likelihood at step 1: -18648.531
+Current log-likelihood at step 2: -18648.506
+Current log-likelihood at step 3: -18648.485
+Current log-likelihood at step 4: -18648.465
+Current log-likelihood at step 5: -18648.450
+Current log-likelihood at step 6: -18648.437
+Current log-likelihood at step 7: -18648.425
+Current log-likelihood at step 8: -18648.413
+Current log-likelihood at step 9: -18648.403
+Current log-likelihood at step 10: -18648.393
+Partition-specific rates:  2.377 0.233
+Parameters optimization took 9 rounds (0.486 sec)
+
+BEST SCORE FOUND : -18648.393
+Creating bootstrap support values...
+Split supports printed to NEXUS file NADH+Rag-1.partitions.splits.nex
+Total tree length: 2.763
+
+Total number of iterations: 107
+CPU time used for tree search: 79.646 sec (0h:1m:19s)
+Wall-clock time used for tree search: 16.576 sec (0h:0m:16s)
+Total CPU time used: 288.621 sec (0h:4m:48s)
+Total wall-clock time used: 85.609 sec (0h:1m:25s)
+
+Computing bootstrap consensus tree...
+Reading input file NADH+Rag-1.partitions.splits.nex...
+40 taxa and 176 splits.
+Consensus tree written to NADH+Rag-1.partitions.contree
+Reading input trees file NADH+Rag-1.partitions.contree
+Log-likelihood of consensus tree: -18648.393
+
+Analysis results written to: 
+  IQ-TREE report:                NADH+Rag-1.partitions.iqtree
+  Maximum-likelihood tree:       NADH+Rag-1.partitions.treefile
+  Likelihood distances:          NADH+Rag-1.partitions.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          NADH+Rag-1.partitions.splits.nex
+  Consensus tree:                NADH+Rag-1.partitions.contree
+  Screen log file:               NADH+Rag-1.partitions.log
+
+Date and Time: Wed Dec  9 11:45:38 2020
