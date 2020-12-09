@@ -8,4 +8,4 @@
 
 module load IQ-TREE/1.6.12
 
-iqtree -s NADH+Rag-1.aligned.fasta -p NADH+Rag-1.partitions -m TIM2+F+R4 -bb 1000 -nt AUTO
+iqtree -s NADH+Rag-1.aligned.partition.fasta -p NADH+Rag-1.partitions -m TIM2+F+R4 -bb 1000 -nt AUTO
